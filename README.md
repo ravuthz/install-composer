@@ -13,6 +13,8 @@ php -r "unlink('composer-setup.php');"
 
 echo @php "%~dp0composer.phar" %*>composer.bat
 ```
+Then build path to execute **composer** as **global**
+
 ### Install Composer on Ubuntu
 
 Open Terminal then paste script below:
@@ -42,5 +44,3 @@ curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/loca
 ```
 composer
 ```
-
-Then build path to execute **composer** as **global**
