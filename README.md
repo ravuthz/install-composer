@@ -2,7 +2,7 @@
 
 ### Install Composer on Window with Xampp:
 
-First build path **"c:/xampp/php/"** to execute php/
+First build path **"c:/xampp/php/"** to execute **php**
 
 Open Command Prompt then go to **"c:/xampp/php/"** directory.
 
