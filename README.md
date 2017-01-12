@@ -13,7 +13,7 @@ php -r "unlink('composer-setup.php');"
 
 echo @php "%~dp0composer.phar" %*>composer.bat
 ```
-### Install Composer on Linux
+### Install Composer on Ubuntu
 
 Open Terminal then paste script below:
 ```
@@ -23,6 +23,19 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 
 mv composer.phar /usr/local/bin/composer
+```
+Or other step:
+
+For PHP version 5
+```
+sudo apt-get install curl php5-cli git
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+```
+
+For PHP version 7
+```
+sudo apt install curl php7.0-cli git
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 ```
 
 ### Now test by type:
