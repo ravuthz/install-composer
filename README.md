@@ -2,7 +2,9 @@
 
 ### Install Composer on Window with Xampp:
 
-Open Command Prompt then go to **"xampp/php"** directory.
+First build path **"c:/xampp/php/"** to execute php/
+
+Open Command Prompt then go to **"c:/xampp/php/"** directory.
 
 Run this command to install **latest composer**:
 ```
@@ -13,8 +15,6 @@ php -r "unlink('composer-setup.php');"
 
 echo @php "%~dp0composer.phar" %*>composer.bat
 ```
-Then build path to execute **composer** as **global**
-
 ### Install Composer on Ubuntu
 
 Open Terminal then paste script below:
