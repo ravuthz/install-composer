@@ -1,5 +1,7 @@
 # Install Composer
 
+## Solution 1:
+
 ### Install Composer on Window with Xampp:
 
 First build path **"c:/xampp/php/"** to execute **php**
@@ -26,7 +28,10 @@ php -r "unlink('composer-setup.php');"
 
 mv composer.phar /usr/local/bin/composer
 ```
-Or other step:
+
+Or download from https://getcomposer.org/download/
+
+## Solution 2:
 
 For PHP version 5
 ```
