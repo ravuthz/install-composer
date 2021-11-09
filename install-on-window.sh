@@ -5,4 +5,8 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '906a84df04cea2aa72f40
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 
+# For Window
 echo @php "%~dp0composer.phar" %*>composer.bat
+
+# For Linux
+cp composer.phar composer
