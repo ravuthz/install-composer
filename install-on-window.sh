@@ -11,3 +11,5 @@ cp ./composer.phar composer
 
 # For Window
 echo @php "%~dp0composer.phar" %*>composer.bat
+
+composer --version
