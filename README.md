@@ -33,15 +33,9 @@ Or download from https://getcomposer.org/download/
 
 ## Solution 2:
 
-For PHP version 5
+Using CURL for any php version
 ```
-sudo apt-get install curl php5-cli git
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
-```
-
-For PHP version 7
-```
-sudo apt install curl php7.0-cli git
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 ```
 
